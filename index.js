@@ -8,10 +8,6 @@ const store = new Vuex.Store({
     state: {
         photos: [],
 
-        // searchString: "",
-        // formVisible: false,
-        // formPhoto: {},
-        // formNewMode: true
     },
     mutations: {
 
@@ -26,14 +22,6 @@ const store = new Vuex.Store({
 
         // setPhotos(state, photos) {
         //     state.photos = photos;
-        // },
-        // removePhotos(state, photo) {
-        //     const index = state.photos.indexOf(photo);
-        //     state.photos.splice(index, 1);
-        // },
-        // updatePhoto(state, photo) {
-        //     const index = state.photos.findIndex(b => b._id == photo._id);
-        //     Vue.set(state.photos, index, photo);
         // },
     }
 });
